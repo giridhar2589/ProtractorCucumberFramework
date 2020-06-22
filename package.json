@@ -1,0 +1,26 @@
+{
+  "name": "protractortypescriptcucumberframework",
+  "version": "1.0.0",
+  "description": "Protractor type Script framework using cucumber ",
+  "main": "index.js",
+  "scripts": {
+    "cucutest": "protractor JSFiles/cucumberConfig.js",
+    "pretest": "tsc",
+    "protractor": "./node_modules/protractor/built/cli.js",
+    "webdriver-update": "./node_modules/.bin/webdriver-manager update"
+  },
+  "author": "giridhar.kc",
+  "license": "ISC",
+  "dependencies": {
+    "@types/cucumber": "^4.0.4",
+    "@types/jasmine": "2.5.41",
+    "@types/jasminewd2": "^2.0.0",
+    "@types/node": "^14.0.13",
+    "cucumber": "^6.0.5",
+    "jasmine": "^3.5.0",
+    "protractor": "^7.0.0",
+    "protractor-cucumber-framework": "^6.2.1",
+    "ts-node": "^3.0.2",
+    "typescript": "^3.9.5"
+  }
+}
