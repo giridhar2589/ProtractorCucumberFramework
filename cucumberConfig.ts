@@ -30,7 +30,7 @@ export let config: Config = {
       var options = {
         theme: 'bootstrap',
         jsonFile: './cucumberreport.json',
-        output: './cucumber_report.html',
+        output: './cucumber_Report.html',
         reportSuiteAsScenarios: true,
         launchReport: true,
         metadata: {
