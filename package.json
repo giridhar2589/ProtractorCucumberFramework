@@ -4,7 +4,7 @@
   "description": "Protractor type Script framework using cucumber ",
   "main": "index.js",
   "scripts": {
-    "cucutest": "protractor JSFiles/cucumberConfig.js",
+    "test": "protractor JSFiles/cucumberConfig.js",
     "pretest": "tsc",
     "protractor": "./node_modules/protractor/built/cli.js",
     "webdriver-update": "./node_modules/.bin/webdriver-manager update"
@@ -21,6 +21,10 @@
     "protractor": "^7.0.0",
     "protractor-cucumber-framework": "^6.2.1",
     "ts-node": "^3.0.2",
-    "typescript": "^3.9.5"
+    "typescript": "^3.9.5",
+    "chai": "^4.2.0",
+    "@types/chai": "^4.2.11",
+    "chai-as-promised": "7.1.1",
+    "cucumber-html-reporter": "5.2.0"
   }
 }

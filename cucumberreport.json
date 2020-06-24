@@ -1,0 +1,313 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "automating the basic cucumber Framework",
+    "line": 1,
+    "id": "automating-the-basic-cucumber-framework",
+    "tags": [],
+    "uri": "Features\\First.feature",
+    "elements": [
+      {
+        "id": "automating-the-basic-cucumber-framework;test-case--for-add-functionality",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Test case  for add functionality",
+        "tags": [
+          {
+            "name": "@Calculator",
+            "line": 2
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "JSFiles\\stepDefinations\\Hooks.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "JSFiles\\stepDefinations\\Hooks.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I will nagivate to the calc website",
+            "match": {
+              "location": "JSFiles\\stepDefinations\\Steps.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5474000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "adding two numbers \"4\" and \"6\"",
+            "match": {
+              "location": "JSFiles\\stepDefinations\\Steps.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 818000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "the output displayed should be \"10\"",
+            "match": {
+              "location": "JSFiles\\stepDefinations\\Steps.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 302000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "JSFiles\\stepDefinations\\Hooks.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "JSFiles\\stepDefinations\\Hooks.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "automating-the-basic-cucumber-framework;test-case--for-add-functionality",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Test case  for add functionality",
+        "tags": [
+          {
+            "name": "@Calculator",
+            "line": 8
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "JSFiles\\stepDefinations\\Hooks.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "JSFiles\\stepDefinations\\Hooks.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "adding two numbers \"6\" and \"6\"",
+            "match": {
+              "location": "JSFiles\\stepDefinations\\Steps.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2231000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "the output displayed should be \"12\"",
+            "match": {
+              "location": "JSFiles\\stepDefinations\\Steps.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 168000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "JSFiles\\stepDefinations\\Hooks.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "JSFiles\\stepDefinations\\Hooks.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": "automating-the-basic-cucumber-framework;test-case--for-add-functionality",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Test case  for add functionality",
+        "tags": [
+          {
+            "name": "@Calculator",
+            "line": 14
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "JSFiles\\stepDefinations\\Hooks.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "JSFiles\\stepDefinations\\Hooks.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "adding two numbers \"6\" and \"3\"",
+            "match": {
+              "location": "JSFiles\\stepDefinations\\Steps.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2262000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "the output displayed should be \"11\"",
+            "match": {
+              "location": "JSFiles\\stepDefinations\\Steps.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 161000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "JSFiles\\stepDefinations\\Hooks.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "JSFiles\\stepDefinations\\Hooks.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
