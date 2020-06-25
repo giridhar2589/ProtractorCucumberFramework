@@ -9,7 +9,7 @@ Then the output displayed should be "10"
 Scenario: Test case  for add functionality 
 #Given  I will nagivate to the calc website
 When  adding two numbers "6" and "6"
-Then the output displayed should be "12"
+Then the output displayed should be "2"
 
 @Calculator
 Scenario: Test case  for add functionality 
